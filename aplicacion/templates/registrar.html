@@ -1,0 +1,13 @@
+<div align="center">
+	<b>Registrar</b> 
+	<form method="POST"> {% csrf_token %}
+		<p>
+		<table>{{ form }}</table>
+		<br />
+		<input type="submit" value="Guardar">
+		<input type="reset" value="Borrar">
+	</form>
+	<p>
+		<a href="{% url 'index' %}">Inicio</a>
+	</p>
+</div>

@@ -1,0 +1,27 @@
+<div align="center">
+	<b>Registros</b>
+	<br />
+	<br />
+	<table border="1px" cellpadding="2px" cellspacing="2px">
+		<tr>
+			<td><B>N</B></td>
+			<td><B>Nombre</B></td>
+			<td><B>Apellido</B></td>
+			<td><B>Cedula</B></td>
+			<td><B>Email</B></td>			
+		</tr>
+		{% for x in lista %}
+		<tr>
+			<td>{{ x.id }}</td>
+			<td>{{ x.nombre }}</td>
+			<td>{{ x.apellido }}</td>
+			<td>{{ x.cedula }}</td>
+			<td>{{ x.email }}</td>			
+		</tr>
+		{% endfor %}
+	</table>
+	<p>
+		<a href="{% url 'index' %}">Inicio</a>
+	</p>
+</div>
+
