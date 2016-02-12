@@ -3,8 +3,10 @@
 Creado por dM
 
 ##Versiones
-- Python-version=2.7.3
-- Django-version=1.5.8
+```
+Python-version=2.7.3
+Django-version=1.5.8
+```
 
 ##(Django - Registrar Persona)
 
