@@ -1,11 +1,12 @@
-#########################
-##### Creado por dM #####
-#########################
+#Django - Registrar Persona
 
-*Python-version=2.7.3
-*Django-version=1.5.8
+Creado por dM
 
--(Django - Registrar Persona)
+##Versiones
+- Python-version=2.7.3
+- Django-version=1.5.8
+
+##(Django - Registrar Persona)
 
 Aplicación que sirve para registrar
 personas, almacenar los registros en
@@ -17,8 +18,7 @@ y funciones y la utilización de
 etiquetas con codigo python en las
  plantillas.
 
-
--Pasos:
+##Tip
 
 La base de datos es sqlite3, al
 sincronizar se creara, así como
