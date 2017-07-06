@@ -9,25 +9,21 @@ from django.views.generic import ListView
 from .models import Persona
 
 
-
-def index(request):    
+def index(request):
     return render_to_response('index.html', context_instance=RequestContext(request))
 
 
-
 class Registrar(CreateView):
-	template_name = "registrar.html"
-	model = Persona
-	success_url = reverse_lazy('registrado')
-
+    template_name = "registrar.html"
+    model = Persona
+    success_url = reverse_lazy('registrado')
 
 
 class Registrado(TemplateView):
-	template_name = "registrado.html"
-
+    template_name = "registrado.html"
 
 
 class Consultar(ListView):
-	model = Persona
-	template_name = "consultar.html"
-	context_object_name = "lista"
+    model = Persona
+    template_name = "consultar.html"
+    context_object_name = "lista"
