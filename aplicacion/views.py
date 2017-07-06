@@ -1,6 +1,6 @@
+# -*- coding: utf-8 -*-
 from django.template import RequestContext
 from django.shortcuts import render_to_response
-from django.template import RequestContext
 from django.views.generic import CreateView
 from django.views.generic import TemplateView
 from django.core.urlresolvers import reverse_lazy 
